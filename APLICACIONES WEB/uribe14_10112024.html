@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+    <link rel="stylesheet" href="./14formularios.css">
+</head>
+
+<body>
+
+
+    <header>
+        <fieldset>
+            <legend>Datos Personales</legend>
+            <label for="fname">Nombre: </label>
+            <input type="text" id="fname" name="fname" value="">
+            <label for="lname">Apellidos</label>
+            <input type="text" id="lname" name="lname" value=""><br><br>
+            <input type="submit" value="Enviar">
+        </fieldset>
+    </header>
+
+    <div class="contacto">
+        <h1>formulario</h1>
+        <div class="linea"></div>
+        <form action="contact.php" method="post" class="formulario">
+            <input type="text" placeholder="Tu Nombre" name="nombre">
+            <input type="email" placeholder="Correo electrónico" name="email">
+            <input type="tel" placeholder="Teléfono" name="telefono">
+            <textarea placeholder="añadir un mensaje" rows="3" name="mensaje"></textarea>
+            <select id="pais" name="paises">
+                <option value="España">España</option>
+                <option value="Italia">Italia</option>
+                <option value="Rusia">Rusia</option>
+                <option value="usa">Otro</option>
+            </select>
+            <input type="submit" href="./INDICE.html" value="Enviar">
+        </form>
+    </div>
+
+
+</body>
+
+</html>

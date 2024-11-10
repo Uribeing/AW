@@ -1,0 +1,75 @@
+/* 
+practica menú vertical y horizontal
+ */
+/** GLOBALES **/
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+menu a {
+  background-color: darkred;
+  color: white;
+}
+
+menu a {
+  background-color: darkred;
+  color: white;
+}
+
+img {
+  float: left;
+  width: 74%;
+  border: 5px double;
+}
+
+.MenuH {
+  overflow: hidden;
+  border: 5px double;
+
+}
+
+.menuV {
+  float: left;
+  width: 26%;
+  overflow: hidden;
+  border: 5px double;
+}
+
+.menuV a {
+  background-color: darkred;
+  color: white;
+  text-decoration: none;
+  padding: 13.8%;
+  display: block;
+  text-align: center;
+
+
+
+}
+
+.menuV a:hover {
+  background-color: coral;
+  color: rgb(0, 0, 0);
+  text-align: center;
+
+
+}
+
+.MenuH a {
+  background-color: darkred;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  float: left;
+  width: 20%;
+  text-align: center;
+  padding: 20px;
+
+}
+
+.MenuH a:hover {
+  background-color: coral;
+  color: rgb(0, 0, 0);
+
+}

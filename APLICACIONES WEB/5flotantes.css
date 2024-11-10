@@ -1,0 +1,62 @@
+/*  Practica 5 flotantes */
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: gray;
+    color: black;
+    padding-left: 5.625rem;
+    margin: 1.25rem;
+    height: 4.375rem;
+
+
+}
+
+footer {
+    background-color: lime;
+    color: black;
+    padding-left: 5.625rem;
+    margin: 1.25rem;
+    clear: both;
+    height: 4.375rem;
+
+}
+
+div {
+    width: 12.5rem;
+    height: 9.375rem;
+    padding: 1.875rem;
+    text-align: center;
+    border-radius: 50%;
+}
+
+#azul1 {
+    background-color: blue;
+    float: right;
+
+
+}
+
+#amarillo {
+    background-color: yellow;
+    float: left;
+
+
+}
+
+#azul2 {
+    background-color: blue;
+    float: left;
+
+
+}
+
+#rojo {
+    background-color: red;
+    float: right;
+
+
+}

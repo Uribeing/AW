@@ -1,0 +1,55 @@
+/* imagenes */
+
+* {
+    background-color: darkred;
+    box-sizing: border-box;
+}
+
+header,
+footer {
+    text-align: center;
+    padding: 5px;
+    border-radius: 20%;
+    background-color: brown;
+    color: black;
+    border-style: solid;
+
+}
+
+h1 {
+    background-color: brown;
+}
+
+h2 {
+    background-color: brown;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding-top: 20px;
+    grid-gap: 10px;
+
+}
+
+.grid img {
+    width: 100%;
+    border: 3px solid black;
+    margin: auto;
+    transition: all ease 1s;
+
+}
+
+img {
+    transition: all 0.5s ease;
+    border-radius: none;
+}
+
+img:hover {
+    transform: scale(0.9);
+}
+
+.Panic img:hover {
+    float: left;
+    border-radius: 1.875rem;
+}

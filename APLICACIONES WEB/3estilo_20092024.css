@@ -1,0 +1,27 @@
+/* Hoja de estilos */
+
+
+p {
+    color: rgb(33, 6, 59);
+}
+
+pre {
+    color: rgb(255, 117, 221);
+    background-color: crimson;
+
+}
+
+h1 {
+    background-color: darkred;
+    color: antiquewhite;
+    padding: 1.25rem;
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+body {
+    background-color: bisque;
+}

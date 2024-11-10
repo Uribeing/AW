@@ -1,0 +1,51 @@
+.sankofa-display-regular {
+  font-family: "Sankofa Display", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.great-vibes-regular {
+  font-family: "Great Vibes", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.tiny5-regular {
+  font-family: "Tiny5", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.danfo {
+  font-family: "Danfo", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "ELSH" 0;
+}
+
+h1 {
+  padding: 1.25rem;
+}
+
+section {
+  display: flex;
+}
+
+.sec1 {
+  font-family: "Sankofa Display";
+}
+
+.sec2 {
+  font-family: "Great Vibes";
+}
+
+.sec3 {
+  font-family: "Tiny5";
+}
+
+.sec4 {
+  font-family: "Danfo";
+}

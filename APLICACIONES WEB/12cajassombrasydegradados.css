@@ -1,0 +1,65 @@
+* {
+    background: linear-gradient(to right, orange, yellow);
+}
+
+header {
+    text-align: center;
+    border: solid darkred .1875rem;
+    border-radius: 1.5625rem;
+    padding: 1.25rem;
+    background: linear-gradient(to left, orange, red);
+    box-shadow: .625rem .625rem .3125rem darkred;
+}
+
+h1,
+h2 {
+    background: linear-gradient(to left, orange, red);
+    text-shadow: .3125rem .0187rem .1875rem rgb(157, 33, 54);
+}
+
+.p1 {
+    background: radial-gradient(circle, red, yellow);
+}
+
+.p2 {
+    background: linear-gradient(to right, rgb(254, 93, 157), red);
+    box-shadow: -.625rem -.625rem .3125rem rgb(96, 0, 56);
+}
+
+.p3 {
+    background: radial-gradient(circle, rgb(255, 124, 205), orange);
+}
+
+p {
+    text-align: center;
+    border: solid darkred .1875rem;
+    border-radius: 1.5625rem;
+    margin-left: 3.125rem;
+    margin-right: 3.125rem;
+}
+
+.camaras {
+    background-image: linear-gradient(to right, transparent 50%, darkred 50%, darkred 100%), url(./imagenes/descarga\ \(11\).jpg);
+    background-size: 100%, 100rem;
+    padding: 4.375rem 0;
+    background-repeat: no-repeat;
+    background-position: right center;
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.camaras,
+h3 {
+    grid-column: 2/3;
+    text-align: center;
+    color: white;
+    background-color: darkred;
+    margin-left: 3.125rem;
+    margin-right: 3.125rem;
+}
+
+h3 {
+    background-color: darkred;
+    background: linear-gradient(to left, darkred, darkred);
+}

@@ -1,0 +1,49 @@
+/* TAREA 7 LISTAS*/
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+h1 {
+    text-align: center;
+}
+
+section {
+    width: 70%;
+    margin: auto;
+    border: dashed;
+    padding: .625rem;
+
+}
+
+.listadesordenada {
+    background-color: darkred;
+    color: aliceblue;
+    list-style: none;
+
+}
+
+.listaordena {
+    background-color: rgb(244, 255, 96);
+    list-style-type: disc;
+}
+
+.listadefinicion {
+    background-color: darkred;
+    color: aliceblue;
+
+}
+
+
+ul {
+    content: "";
+    display: inline-block;
+    width: 1.5625rem;
+    height: 1.5625rem;
+    background-image: url(./imagenes/estasitarea7.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-right: 5p;
+}

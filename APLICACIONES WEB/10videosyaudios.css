@@ -1,0 +1,54 @@
+* {
+    background-color: rgb(0, 0, 0);
+}
+
+header {
+    text-align: center;
+    background-color: yellow;
+    color: yellow;
+}
+
+h1 {
+    background-color: yellow;
+    color: black;
+    font-style: italic;
+    padding: 1.25rem;
+    border-radius: 4.375rem;
+}
+
+video,
+iframe {
+    margin: auto;
+    display: block;
+    border-radius: .9375rem;
+    border: solid;
+    color: yellow;
+    height: 18.75rem;
+    width: 31.25rem;
+}
+
+audio {
+    margin: auto;
+    display: block;
+    border-radius: .9375rem;
+    border: solid;
+    color: yellow;
+    /*no me funcionaba correctamente el autoplay*/
+
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding-top: 20px;
+    grid-gap: 10px;
+}
+
+iframe:hover {
+    transform: scale(0.9);
+}
+
+iframe {
+    transition: all 0.5s ease;
+    border-radius: none;
+}

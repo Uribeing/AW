@@ -1,0 +1,54 @@
+/* Octubre 2024, Uribe Zakharova */
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+h2 {
+    text-align: center;
+    padding: auto;
+    margin: 6.25rem 0 12.5rem 0;
+}
+
+header,
+footer {
+    background-color: bisque;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0px -5px 5px darkred;
+    text-shadow: 2px -2px 3px darkgoldenrod;
+    color: lightgoldenrodyellow;
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    clear: both;
+}
+
+img {
+    width: 17%;
+}
+
+body {
+    background-color: brown;
+}
+
+main {
+    background-color: darkred;
+    width: 80%;
+    height: 100vh;
+    position: relative;
+    margin: 10px auto 10px;
+    border: solid;
+    color: lightgoldenrodyellow;
+    border-width: 5px 0px 10px;
+}
+
+section {
+    width: 33%;
+    float: left;
+    text-align: center;
+}
